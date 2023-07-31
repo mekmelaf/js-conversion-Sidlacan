@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <script src="js/style.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+   
+    <!-- <p>Type a value in the Pounds field to convert the value to Kilograms:</p>
+    
+    <p>
+      <label>Pounds</label>
+      <input id="inputPounds" type="number" placeholder="Pounds" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+    </p> -->
+    <form action="">
+        <div>
+            <h2>Weight Converter</h2>
+        </div>
+        <div>
+            <input type="number" oninput="val1()" id="input1">
+            <select name="" id="options">
+                <option value="Kilogram">Kilogram</option>
+                <option value="Grams">Grams</option>
+                <option value="Pound">Pound</option>
+                <option value="Ounce">Ounce</option>
+            </select>
+        </div>
+        <div class="arrow">
+            <span class="material-symbols-outlined">
+                sync_alt
+            </span>
+        </div>
+        <div>
+            <input type="number" oninput="val2()" id="input2">
+            <select name="" id="options2">
+                <option value="Kilogram">Kilogram</option>
+                <option value="Grams">Grams</option>
+                <option value="Pound">Pound</option>
+                <option value="Ounce">Ounce</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>

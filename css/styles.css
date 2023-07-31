@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Permanent+Marker&family=Rancho&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+form  {
+    padding: 20px;
+    border: 1px solid aqua;
+    border-radius: 20px;
+    background: linear-gradient(to bottom right , aqua,orange);
+}
+form h2 {
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+form input ,select {
+    letter-spacing: 1.5px;
+    padding: 10px 10px;
+    font-size: 17px;
+}
+form input {
+    width: 200px;
+    outline: none;
+}
+.arrow {
+    text-align: center;
+    padding: 20px;
+}
+.arrow span {
+    transform: rotate(90deg);
+    font-size: 30px;
+}
